@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", to: "/", current: true },
+  // { name: "Home", to: "/", current: true },
   { name: "Agentes", to: "agentes", current: false },
   { name: "Armas", to: "armas", current: false },
   { name: "Mapas", to: "mapas", current: false },

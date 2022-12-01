@@ -18,7 +18,9 @@ const Rotas = () => {
         <Route path="/" element={<App />}>
           <Route path='login' element={<Login/>} />
           <Route path='registrar' element={<Registrar/>} />
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Agentes />} />
+          <Route path="/:id" element={<AgentesDetalhesPage />} />
           <Route path="agentes" element={<Agentes />} />
           <Route path="agentes/:id" element={<AgentesDetalhesPage />} />
           <Route path="armas" element={<Armas />} />
