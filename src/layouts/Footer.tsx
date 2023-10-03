@@ -16,26 +16,31 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
-            <h2 className="mb-6 text-sm font-semibold uppercase ">Resources</h2>
+            <h2 className="mb-6 text-sm font-semibold uppercase ">Recursos</h2>
             <ul className="">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  ValorantUI
-                </a>
-              </li>
               <li>
                 <a href="https://tailwindcss.com/" className="hover:underline">
                   Tailwind CSS
                 </a>
               </li>
+              <li>
+                <a href="https://vitejs.dev" className="hover:underline">
+                  Vite.js
+                </a>
+              </li>
+              <li>
+                <a href="https://vercel.com" className="hover:underline">
+                  Vercel
+                </a>
+              </li>
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold ">Follow us</h2>
+            <h2 className="mb-6 text-sm font-semibold ">Redes</h2>
             <ul className="">
-              <li className="mb-4">
+              <li className="">
                 <a
-                  href="#"
+                  href="https://github.com/lucasdesouza-dev/ValoranteUI"
                   className="hover:underline "
                 >
                   Github
@@ -43,25 +48,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/lucasdesouza-dev/"
                   className="hover:underline"
                 >
-                  Discord
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold  uppercase ">Legal</h2>
-            <ul className="">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
+                  Linkedin
                 </a>
               </li>
             </ul>
@@ -71,13 +61,20 @@ const Footer = () => {
       <hr className="my-6 border-white sm:mx-auto  lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-white sm:text-center ">
-          © 2022{" "}
+          © 2023{" "}
           <a href="#" className="hover:underline">
             VaorantUI
           </a>
-          . All Rights Reserved.
+          . Produzido por
+          <a
+            href="https://lucasdesouzadev.vercel.app"
+            className="ml-2 font-bold text-black hover:underline "
+          >
+            Lucas Souza
+          </a>
+          .
         </span>
-        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-white">
+        {/* <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-white">
           <a href="#" className=" hover:text-gray-900 ">
             <svg
               className="w-5 h-5"
@@ -149,7 +146,7 @@ const Footer = () => {
             </svg>
             <span className="sr-only">Dribbbel account</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

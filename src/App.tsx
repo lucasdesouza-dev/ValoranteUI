@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App min-w-[414px] ">
       <NavBar />
+
       <Outlet />
+
       <Footer />
     </div>
   );

@@ -8,7 +8,7 @@ function Agentes() {
   const dados = ApiRequest.getAgents();
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 ]">
+    <div className="flex flex-wrap justify-center gap-4 min-h-screen">
       {dados?.map((agente: any) => {
         const grupoBackground = agente.backgroundGradientColors.length;
 

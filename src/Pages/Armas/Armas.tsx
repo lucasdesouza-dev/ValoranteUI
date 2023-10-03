@@ -13,11 +13,9 @@ const Armas = () => {
     Melee: "4da6e1ff",
   };
 
- 
-
   return (
     <div>
-      <div className="flex flex-wrap justify-center gap-4 ]">
+      <div className="flex flex-wrap justify-center gap-4 min-h-screen">
         {dados?.map((arma: any) => {
           const categoria = arma.category.slice(21);
 
