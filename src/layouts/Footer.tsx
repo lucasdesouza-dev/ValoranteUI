@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="mt-10 p-4 bg-[#e62d3c] sm:p-6  bottom-0 w-full min-w-[414px]">
       <div className="md:flex md:justify-between text-white">
         <div className="mb-6 md:mb-0">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <a href="#" className="flex items-center">
             <img
               src="https://logodownload.org/wp-content/uploads/2020/06/valorant-logo-1.png"
               className="mr-3 h-8"
